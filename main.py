@@ -10,4 +10,4 @@ for i in range(len(cogs)):
 
 client = commands.Bot(command_prefix='?', intents = discord.Intents.all())
 
-client.run("OTU5ODU0ODI1Mzc2NDY0OTY3.Ykh8dw.Jnwp7pLElBKqBgCWgUa2dCjA3J8")
+client.run("")
