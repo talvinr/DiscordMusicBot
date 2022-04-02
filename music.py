@@ -17,7 +17,16 @@ class music(commands.Cog);
             await voice_channel.connect()
         else:
             await ctx.voice_client.disconnect()
-            
+     
+    
+    
+    @commands.command()
+    async def disconnect(self,ctx):
+         await ctx.voice_client.disconnect()
+    
+    
+
+    
      @commands.command()
      async def play(self,ctx,url):
           ctx.voice_client.stop()
@@ -26,10 +35,23 @@ class music(commands.Cog);
           YDL_OPTIONS = {'format':"bestaudio"}
           vc = ctx.voice_client
           
-          with youtube_dl.YoutubeDL(YDL_OPTIONS) as ydl:                 
+          with youtube_dl.YoutubeDL(YDL_OPTIONS) as ydl:  
+     
+                            
+    @commands.command()
+    async def pause(self,ctx):
+        await ctx.voice_client.pause()
+        await ctx.send("paused")
+
+    @commands.command()
+    async def resume(self,ctx):
+         await ctx.voice_client.resume()
+         await ctx.send("resumed")                       
+                            
+                            
            
 
-    def setup(client):
-        client.add_cog(music(client))
+def setup(client):
+    client.add_cog(music(client))
 
         
