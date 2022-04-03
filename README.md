@@ -21,7 +21,8 @@ py -3 -m pip install -U discord.py[voice]
 ## Installation and setup
 
 <h2>Commands:</h2>
-1) ?join - connect bot to voice channel
-2) ?play 'paste youtube link'
-3) ?pause - pauses song
-4) ?resume - resumes song
+
+2) ?join - connect bot to voice channel
+3) ?play 'paste youtube link'
+4) ?pause - pauses song
+5) ?resume - resumes song
