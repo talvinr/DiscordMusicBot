@@ -17,3 +17,7 @@ py -3 -m pip install -U discord.py[voice]
 
 ```
 4) Run 'Main.py'
+
+## Installation and setup
+
+<h2>Commands:<h2>
