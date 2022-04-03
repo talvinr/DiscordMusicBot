@@ -10,7 +10,6 @@ Note: Ensure you have pip installed, along with discord.py.
 python get-pip.py
 
 ```
-
 2) Download discord.py from this link - https://pypi.org/project/discord.py/
 3) Type this into your cmd to install discord.py
 ``` 
